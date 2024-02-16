@@ -5,7 +5,7 @@ export const MyButton = ({ text, func }) => {
     return (
         <Button mode="contained" onPress={func}
             style={{
-                backgroundColor: '#055FA8',
+                // backgroundColor: '#055FA8',
                 borderRadius: 5,
             }}>
             {text}
